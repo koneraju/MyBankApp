@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <font color="orange" size="5">NovaTrust</font>
+            <font color="blue" size="5">Bank</font>
+        </center>
+    </header>
+    <nav>
+        <a href="index.html">About</a> &nbsp;
+        <a href="Loans.html">Loans</a> &nbsp;
+        <a href="Branches.html">Branches</a> &nbsp;
+        <a href="registrationform.html">Registration form</a> &nbsp;
+        <a href="interntbankingloginpage.html">login page</a> &nbsp;
+        <a href="LoanEligibilityCheck.html">Loan Eligibility</a> &nbsp;
+        <a href="EmiCalculator.html">EMI Calculator</a> &nbsp;
+        <a href="CreditCardApplication.html">Credit Card</a> &nbsp;
+        <a href="CustomerProfileupdate.html">Customer Profile</a> &nbsp;
+        <a href="BranchFeedback.html">Branch Feedback</a>
+    </nav>
+    <main>
+        <table border="1" align="center" cellpadding="10">
+            <caption>
+                <h2>Loan Eligibility Check</h2>
+            </caption><br>
+            <form>
+                <tr>
+                    <td><label>Nmae </label></td>
+                    <td> <input type="text"><br></td>
+                </tr>
+                <tr>
+                    <td> <label>Annual Income</label>
+                    </td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td> <label>Existing EMI</label>
+                    </td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td> <label>Employement</label></td>
+                    <td><input type="radio" value="Male" id="Salaried1" name="salary">Salaried
+                        <input type="radio" value="Female" id="Business1" name="salary">Bussiness
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label>Loan Type</label></td>
+                    <td><select id="loan" name="loan type">
+                            <option value="education">Education</option>
+                            <option value="current">Home</option>
+                            <option value="zero Balance">Vechile</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label>Loan Amount</label>
+                    </td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td> <label>Start Date </label></td>
+                    <td> <input type="date"><br></td>
+                </tr>
+                <tr>
+                    <td> <label>Purpose</label></td>
+                    <td> <textarea rows="4" col="25" placeholder="Enter loan purpose"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="check Eligibility">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </main><br><br><br><br><br>
+    <hr color="black">
+    <footer style="color:crimson">
+        <center><b>copyright@iob</b></center>
+    </footer>
+</body>
+
+</html>
